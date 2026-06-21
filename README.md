@@ -29,3 +29,18 @@ Abstract Data Types(ADTs): ADT is a data type which defines WHAT operations are 
 Array as ADT: 1. Array allocates a contiguous memory block after its declaration, this is abstract.
 
 2.It tracks total memory allocated and total memory used
+
+
+-----------------------------------------------
+Day 3:
+
+
+added files: main.cpp and searchTree.cpp
+
+understood how to implement array as ADT.
+
+understood about array traversal,insertion,deletion as well as shifting of its elements.
+
+understood about searchTree and even prcticed!
+
+_________________________________________________
