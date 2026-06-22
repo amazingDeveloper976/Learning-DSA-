@@ -44,3 +44,16 @@ understood about array traversal,insertion,deletion as well as shifting of its e
 understood about searchTree and even prcticed!
 
 _________________________________________________
+
+
+DAY 4:
+
+added file: linkListTraversal.cpp
+
+understood that linked list holds a pointer to next element and insertion and deletion is easier in this then array.
+
+Drawback: Reading data is time consuming and it have Big O(n) whereas array had Big O(1). (guess we should must sacrifice read speed for easier insertion and deletion)
+
+understood how to make a linked list and practiced with file mentioned above.
+
+___________________________________________________
