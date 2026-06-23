@@ -57,3 +57,13 @@ Drawback: Reading data is time consuming and it have Big O(n) whereas array had 
 understood how to make a linked list and practiced with file mentioned above.
 
 ___________________________________________________
+
+DAY 5:
+
+Added files: LinkedListInsertion.cpp
+
+understood the logic for insertion at different places.
+
+Wrote a program for insertion of node at different places at "LinkedListInsertion.cpp".
+
+____________________________________________________
