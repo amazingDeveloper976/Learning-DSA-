@@ -43,11 +43,16 @@ void delLast(Node* first){
 
 void delNodeWithGivenValue(Node* first,int value){
     Node* ptr=first;
-    while(ptr->nxt->data!=value){
+    while(ptr->nxt!=NULL && ptr->nxt->data!=value){
         ptr=ptr->nxt;
     }
-    Node* ptr2=ptr->nxt;
+    if(ptr->nxt==NULL){
+        std::cout<<"value not found\n";
+    }
+    else{
+        Node* ptr2=ptr->nxt;
     ptr->nxt=ptr->nxt->nxt;
+    }
 }
 
 int main(){
@@ -75,9 +80,9 @@ int main(){
     traversal(first);
     
     //first=delFirst(first);
-    delIdx(first,0);
+    //delIdx(first,0);
     //delLast(first);
-    //delNodeWithGivenValue(first,7);
+    delNodeWithGivenValue(first,77);
     traversal(first);
    
     return 0;
