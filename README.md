@@ -1,4 +1,8 @@
+Github: amazingDeveloper976
+
 # Learning-DSA-
+
+
 Nothin' just understandin' DSA!
 
 Day 1: 
@@ -67,3 +71,12 @@ understood the logic for insertion at different places.
 Wrote a program for insertion of node at different places at "LinkedListInsertion.cpp".
 
 ____________________________________________________
+
+
+DAY 6:
+
+Added file:LinkedListDeletion.cpp
+
+understood the logic for deletion at different places.
+
+Wrote a program for deletion of node at different places at "LinkedListDeletion.cpp".
