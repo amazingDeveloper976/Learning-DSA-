@@ -80,3 +80,14 @@ Added file:LinkedListDeletion.cpp
 understood the logic for deletion at different places.
 
 Wrote a program for deletion of node at different places at "LinkedListDeletion.cpp".
+
+_______________________________________________
+
+DAY 7:
+
+Added files: circularLinkedList.cpp,doublyLinkedList.cpp
+
+Understood about circular and doubly linked list
+
+wrote a practice program for both of them.
+
