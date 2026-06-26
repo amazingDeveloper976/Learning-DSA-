@@ -19,6 +19,44 @@ void aheadBack(Node* &first){
         ptr=ptr->prev;
     }
 }
+Node* insertAtFirst(Node* &first,int data){
+        std::cout<<"\nAdded "<<data<<" in first\n";
+        Node* ptr;
+        ptr=new Node;
+        ptr->data=data;
+        ptr->nxt=first;
+        first->prev=ptr;
+        ptr->prev=NULL;
+        return ptr;
+}
+void insertAtIdx(Node* first,int idx,int data){
+        std::cout<<"\nAdded "<<data<<" in given index\n";
+        Node* ptr;
+        ptr=new Node;
+        Node* ptr2=first;
+        ptr->data=data;
+        for(int i=0;i<idx-1;i++){
+                ptr2=ptr2->nxt;
+        }
+        ptr->nxt=ptr2->nxt;
+        ptr2->nxt->prev=ptr;
+        ptr2->nxt=ptr;
+        ptr->prev=ptr2;
+        
+}
+void insertAtEnd(Node* &first,int data){
+        std::cout<<"\nAdded "<<data<<" in End\n";
+        Node* ptr;
+        ptr=new Node;
+        Node* ptr2=first;
+        ptr->data=data;
+        while(ptr2->nxt!=NULL){
+                ptr2=ptr2->nxt;
+        }
+        ptr2->nxt=ptr;
+        ptr->nxt=NULL;
+        ptr->prev=ptr2;
+}
 int main(){
     Node* first;
     Node* second;
@@ -46,5 +84,9 @@ int main(){
     fourth->prev=third;
     
     aheadBack(first);
+    //first=insertAtFirst(first,99);
+    //insertAtIdx(first,2,199);
+    insertAtEnd(first,299);    
+    aheadBack(first);    
     return 0;
 }

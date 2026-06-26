@@ -91,3 +91,15 @@ Understood about circular and doubly linked list
 
 wrote a practice program for both of them.
 
+
+______________________________________________________
+
+DAY 8:
+
+Added files: NULL
+
+Added some more functions in doubly li ked list.
+
+Currently understanding Stack.
+
+____________________________________________________
