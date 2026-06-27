@@ -103,3 +103,11 @@ Added some more functions in doubly li ked list.
 Currently understanding Stack.
 
 ____________________________________________________
+
+DAY 9:(Its been a little late because i'm stuck at a problem in leetcode)
+
+Added file: stackUsingArray.cpp
+
+Implemented stack using array and did some basic operation there.
+
+ ____________________________________________________
