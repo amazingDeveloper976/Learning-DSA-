@@ -111,3 +111,13 @@ Added file: stackUsingArray.cpp
 Implemented stack using array and did some basic operation there.
 
  ____________________________________________________
+
+DAY10&&Day11 (There wa just a little on 10 so 10&&11 together)
+
+Added files: stackOperations.cpp,peekOperationStack.cpp,stackTop&stackBottom.cpp
+
+Just understood what the file name signifies.
+
+In stackOperations.cpp,did (push,pop,isFull,isEmpty)operations.
+
+______________________________________________________
