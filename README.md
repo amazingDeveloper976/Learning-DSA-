@@ -112,12 +112,26 @@ Implemented stack using array and did some basic operation there.
 
  ____________________________________________________
 
-DAY10&&Day11 (There wa just a little on 10 so 10&&11 together)
+DAY10&&Day11 (There was just a little on 10 so 10&&11 together)
 
 Added files: stackOperations.cpp,peekOperationStack.cpp,stackTop&stackBottom.cpp
 
 Just understood what the file name signifies.
 
 In stackOperations.cpp,did (push,pop,isFull,isEmpty)operations.
+
+______________________________________________________
+
+DAY 12
+
+Added files:stackUsingLinkedList.cpp,stackTop&BottomInLinkedList.cpp,parenthesisMatching.cpp,multipleParenthesisMatching.cpp
+
+Understood what thr file names signifies.
+
+Basically same things as previous days BUT with linkedList including
+
+->How to match parenthesis
+
+->How to match multiple parenthesis(Brackets)
 
 ______________________________________________________
