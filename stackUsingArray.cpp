@@ -14,13 +14,13 @@ int stack::isEmpty(class stack* &sPtr){
     return 0; 
 }
 int stack::isFull(stack* &sPtr){
-    if(sPtr->top==sPtr->size){
+    if(sPtr->top==sPtr->size-1){
         return 1;
     }
     return 0;
 }
 int main(){
-    class stack *s1;
+    class stack *s1=new stack;
     int a;
     std::cout<<"Enter size of array\n";
     std::cin>>a;
@@ -32,7 +32,6 @@ int main(){
         std::cin>>s1->arr[i];
         s1->top++;
     }
-    s1->top++;
     if (s1->isFull(s1)){
         std::cout<<"Stack is full!\n";
     }
