@@ -135,3 +135,13 @@ Basically same things as previous days BUT with linkedList including
 ->How to match multiple parenthesis(Brackets)
 
 ______________________________________________________
+
+DAY 13
+
+Added files: infixToPostfix.cpp
+
+Understood about infix,prefix and postfix.
+
+Postfix is majorly used by machines as understanding it us easy for machines.
+
+__________________________________________________
