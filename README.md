@@ -145,3 +145,16 @@ Understood about infix,prefix and postfix.
 Postfix is majorly used by machines as understanding it us easy for machines.
 
 __________________________________________________
+
+DAY 14
+
+Added file: queueImplementation.cpp
+
+understood about queue and that unlike stack, it works on fifo principle.
+
+Wrote a cpp code for that operation but i see that the cpp code i wrote is linear
+and after every dequeue, i lose the access to starting memory blocks of array for O(1) 
+as this could have been solved by shifting all elements of array but this would cause O(n).
+I researched and found that i can solve this with circular queue. I'll get to that soon.
+
+_________________________________________________________________________
