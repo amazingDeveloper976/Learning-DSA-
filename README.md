@@ -166,3 +166,23 @@ Added files: circularQueue.cpp
 The problem with linear queue was solved.
 
 _____________________________________________________________
+
+DAY 16
+Added files:queueUsingLinkedList.cpp,doubleEndedQueue.cpp
+bubbleSort.cpp,insertionSort.cpp
+
+Queue was made using linked list and double ended one with array.
+
+Started sorting algorithm.
+
+Did bubble sort and insertion sort.
+
+Bubble sort: Pushes all the heavy elements to backside and has O(n²)
+This is stable algo but non adative. however, this can be made adaptive.
+
+Insertion sort:This Considers the first element as sorted and starts from another
+and checks its relation with first element. if first element is greater then second,
+pushes the second to first place and and first one backward. 
+This is also stable and this is adaptive from beginning.
+
+_____________________________________________
