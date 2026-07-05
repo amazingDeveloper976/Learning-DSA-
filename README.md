@@ -163,11 +163,13 @@ DAY 15
 
 Added files: circularQueue.cpp
 
-The problem with linear queue was solved.
+The problem with linear queue was solved using circular queue
+also known ring buffers or circular buffers.
 
 _____________________________________________________________
 
 DAY 16
+
 Added files:queueUsingLinkedList.cpp,doubleEndedQueue.cpp
 bubbleSort.cpp,insertionSort.cpp
 
@@ -182,7 +184,44 @@ This is stable algo but non adative. however, this can be made adaptive.
 
 Insertion sort:This Considers the first element as sorted and starts from another
 and checks its relation with first element. if first element is greater then second,
-pushes the second to first place and and first one backward. 
-This is also stable and this is adaptive from beginning.
+pushes the second to first place and and first one backward. This is also stable and 
+this is adaptive from beginning. Time complexity O(n) if already sorted(best case).
+worst case(if sorted in reverse order) O(n²). Average case O(n²)
+
 
 _____________________________________________
+
+DAY 17
+
+Added files: selectionSort.cpp,quickSort.cpp,mergeSort.cpp
+
+selection sort: we assume the current element smallest and mive forward and if another
+smaller is found then we make that smallest. after the array finishes in 'j', the value 
+of array at index 'i' is swapped with index of minimum value. Time complexity O(n²) in all cases.
+This is neither adaptive nor stable.
+
+Quick sort: We take an element as pivot element and arrange the pivot element in such way
+that its one side are all elements smaller and other side greater then it. then we repeat this 
+for two sub-arrays we have. Time complexity O(n²) for worst case if array is already sorted. 
+O(nlogn) is average and best case. This is not stable and not adaptive. 
+
+Merge sort: we take an array, divide it using recursive mergeSort function, when there are only 2 elements 
+it gets divided into single elements and divided element's partition mergeSort does nothing as low<high fails.
+when thess 2 elements' pass to merge function(which looks at 2 elements and treats it like 2 sorted arrays) 
+,this function merges the number and sorts them. This creates a sorted partition 
+in the array and when next partition is dropped by mergeSort function, it also gets sorted. this happens 
+recursively and when parent mergeSort's merge gets triggers, there will be 2 sorted partitions which our 
+merge function will merge and sort. 
+
+ONE THING I SHOULD REMEMBER INCASE I FORGET: Array never gets divided, its just that the function only gets to see a partition 
+so it treats it like 2 arrays.
+
+Time complexity: O(nlogn) in all cases (best, worst, average) because the tree divides evenly and every level 
+requires a full pass to merge. unlike quick sort this sort's speed can't get changed with different array orders. 
+
+Space complexity:O(n) because it requires an extra temporary array to hold elements while sorting them, 
+ublike quick sort whith O(1) (worst) and O(nlogn) memory complexity
+
+unlike quick sort This is a stable algorithm but like quick sort this is also not adaptive.so, this works same even if sorted array is given to it.
+
+__________________________________________________________
