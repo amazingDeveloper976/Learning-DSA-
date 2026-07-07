@@ -225,3 +225,76 @@ ublike quick sort whith O(1) (worst) and O(nlogn) memory complexity
 unlike quick sort This is a stable algorithm but like quick sort this is also not adaptive.so, this works same even if sorted array is given to it.
 
 __________________________________________________________
+
+DAY 18
+
+Added files:
+
+count sort: this sort creates an array of size of greatest element in given array+1 (+1 in order to get grestest element'th index) 
+and we set the indices value of new array to 0 amd then increment the value at the element'th index by one everytime we encounter that element. 
+This naturally sorts the array as the indices are already sorted. we then traverse the new array and check its elements and if element>0 then 
+the index of that element is added as value from 0th index of our original array. this sorts the elements automatically as we are moving 
+from 0 to front and copying in same order.
+
+Time complexity: O(n+k), where n=size of given array and k is max element.However, if n is exceptionally large, so, k is negligible 
+and time comolexity becomes O(n). This is faster then all algos above but at the cost of space.
+
+Space complexity: O(k) so if k is exceptionally large, this becomes slower then others and this will take massive memory. 
+
+This is neither stable nor adaptive
+
+_______________________________________________________
+
+(forgot to push at day 18)
+DAY 19
+
+INTRODUCTION TO TREES
+
+Root: Topmost node
+
+Parent: Node connecting to child
+
+child: Node connected by by other node above
+
+siblings: Nodes belonging to same parent
+
+leaf/extended node: Nodes with no child nodes
+
+Internal node: nodes with atleast 1 child node
+
+Depth: Distance from root(topmost node)
+
+Height: Depth from bottommost node
+
+Ancesteors: All the nodes connecting backward from a node
+
+Descendends: All the hodes connecting forward(dounward) from a node
+
+Edges: no of links(arrows)
+
+n nodes=>n-1 edges
+
+Degree: no of direct children
+
+Degree of tree: Highest degree of a node in tree
+
+
+
+BINARY TREE
+
+:-The tree with at most 2 degrees. 
+
+TYPES:
+1) Full or Strict Binary Tree: All nodes have either 0 or 2 children
+
+2) Perfect Binary Tree: Internal Nodes have exactly 2 children and all 
+leaf nodes are on same level.
+
+3) Complete/Almost complete Binary Tree: All levels are comoletely filled except possibly last level 
+and all the keys of last level must be as left as possible.This is almost becoming perfect binary tree.
+
+4) Degenerate Tree: Every parent node->exactly one child.
+
+a) Left skewed: All childs on left side
+
+b) Right skewed: All childs on right side
