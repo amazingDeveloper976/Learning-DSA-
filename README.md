@@ -246,6 +246,7 @@ This is neither stable nor adaptive
 _______________________________________________________
 
 (forgot to push at day 18)
+
 DAY 19
 
 INTRODUCTION TO TREES
@@ -298,3 +299,13 @@ and all the keys of last level must be as left as possible.This is almost becomi
 a) Left skewed: All childs on left side
 
 b) Right skewed: All childs on right side
+
+_______________________________________________
+
+DAY 20
+
+REPRESENTATION OF BINARY TREE
+
+1)Array Representation: By using array
+
+2) Linked Representation: By using Doubly linked list where both pointers point to different node
