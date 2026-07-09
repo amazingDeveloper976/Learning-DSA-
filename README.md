@@ -309,3 +309,21 @@ REPRESENTATION OF BINARY TREE
 1)Array Representation: By using array
 
 2) Linked Representation: By using Doubly linked list where both pointers point to different node
+
+________________________________________________
+
+DAY 21
+
+Added files: representationOfBinaryTree.cpp
+
+Represented a binary ttee using list and tried unique_ptr for one node for first time.
+
+
+
+TRAVERSAL IN BINARY TREE
+
+1)Preorder Traversal: Root->Left subtree->Right subtree
+
+2)Postorder Traversal: Left subtree->Right subtree->Root
+
+3)Inorder Traversal: Left subtree->Root->Right subtree
