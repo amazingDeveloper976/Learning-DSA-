@@ -314,7 +314,7 @@ ________________________________________________
 
 DAY 21
 
-Added files: representationOfBinaryTree.cpp
+Added files: representationOfBinaryTree.cpp, preOrderTraversal.cpp
 
 Represented a binary ttee using list and tried unique_ptr for one node for first time.
 
@@ -327,3 +327,14 @@ TRAVERSAL IN BINARY TREE
 2)Postorder Traversal: Left subtree->Right subtree->Root
 
 3)Inorder Traversal: Left subtree->Root->Right subtree
+
+_____________________________________________
+
+DAY 22
+
+Added files: postOrderTraversal.cpp, inOrderTraversal.cpp
+
+The file name specidies everything
+
+___________________________________________
+
