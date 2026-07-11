@@ -338,3 +338,14 @@ The file name specidies everything
 
 ___________________________________________
 
+DAY 23
+
+Added files:BST.cpp
+
+Binary Search Tree
+
+Its basically a binary tree BUT Left subtree < Root && Right Subtree > Root (Even duplicates aren't allowed)
+
+And the left and right subtrees are also binary search trees
+
+inorder traversal of BST gives sorted result
