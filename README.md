@@ -195,7 +195,7 @@ DAY 17
 
 Added files: selectionSort.cpp,quickSort.cpp,mergeSort.cpp
 
-selection sort: we assume the current element smallest and mive forward and if another
+selection sort: we assume the current element smallest and move forward and if another
 smaller is found then we make that smallest. after the array finishes in 'j', the value 
 of array at index 'i' is swapped with index of minimum value. Time complexity O(n²) in all cases.
 This is neither adaptive nor stable.
@@ -349,3 +349,16 @@ Its basically a binary tree BUT Left subtree < Root && Right Subtree > Root (Eve
 And the left and right subtrees are also binary search trees
 
 inorder traversal of BST gives sorted result
+
+___________________________________________
+
+DAY 24
+
+Added files: searchingInBST.cpp,insertionInBST.cpp
+
+Searching is highly efficient with O(log n) at best and average case and O(n) at worst case if 
+the tree is skewed at either side. Basically this wiol be linked list at this skewed case.
+
+insertion is also really efficient witn O(log n) time complexity.
+
+_________________________________________________
