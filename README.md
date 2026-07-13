@@ -362,3 +362,15 @@ the tree is skewed at either side. Basically this wiol be linked list at this sk
 insertion is also really efficient witn O(log n) time complexity.
 
 _________________________________________________
+
+DAY 25
+
+Added files: None
+
+Deleting Node in BST
+
+I thought deleting would be simple as linked list but i was wrong. Deleting leaf node is easy BUT non-leaf node and 
+root nodes are a nightmare. I thought i could even practice a code of this but because i started late today, i could not 
+finish a code and i dont want to copy paste that without concept and understanding so, tomorrow it is.
+
+___________________________________________________
