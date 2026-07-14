@@ -12,6 +12,14 @@ struct Node* createNode(int data){
     n->right=nullptr;
     return n;
 }
+void inOrder(struct Node* root){
+    if(root!=nullptr){
+    inOrder(root->left);
+    std::cout<<root->data<<"\n";
+    inOrder(root->right);
+    }
+    return;
+}
 struct Node* search(struct Node* n,int val){
     while(n!=nullptr){
         if(n->data==val){
@@ -72,9 +80,11 @@ int main(){
     root->right=n2;
     n1->left=n3;
     n1->right=n4;
-    search(root,0);
-    insert(root,0);
-    search(root,0);
+    search(root,11);
+    inOrder(root);
+    insert(root,12);
+    inOrder(root);
+    search(root,11);
     deleteAll(root);
     std::cout<<"All nodes deleted\n";
     return 0;

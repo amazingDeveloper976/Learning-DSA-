@@ -374,3 +374,30 @@ root nodes are a nightmare. I thought i could even practice a code of this but b
 finish a code and i dont want to copy paste that without concept and understanding so, tomorrow it is.
 
 ___________________________________________________
+
+DAY 26
+
+Added files: deletionInBST.cpp
+
+It was a bit confusing at first but i got it now. what is done is if the node to delete is leaf node, it just deletes that node. 
+if not then it is replaced with its inorder predesessor(left then continue right). since it is replaced with predesessor, the duplicate 
+exists in left side. after continuous recursion, it finally reaches that point. if that has a left child again recursion does its work. finally 
+it reaches leaf node and that node is deleted, so, code rerurns nullptr which gets assigned to the node->side as it is called like this: 
+
+node->side=deleteNode(root,val);
+
+so, that part gets nullptr in this rewinding process where all recursions clear the stack one by one.
+
+
+
+AVL TREES
+
+->Height balanced BST
+
+->Max height difference allowed=+- 1
+
+->Balance factor= height of right subtree - height of left subtree
+
+->Rotation is required if tree becomes unbalanced. (i dont know what this rotation is but guess we'll see)
+
+_________________________________________________________
