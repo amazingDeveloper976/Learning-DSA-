@@ -401,3 +401,20 @@ AVL TREES
 ->Rotation is required if tree becomes unbalanced. (i dont know what this rotation is but guess we'll see)
 
 _________________________________________________________
+
+DAY 27
+
+ROTATION IN AVL TREES
+
+LL Rotation : when node is inserted in left->left side
+
+RR Rotation : when inserted in Right->right side
+
+LR Rotation : when in Left->right side
+
+RL Rotation : when in Right->left
+
+made a file for these but i dont have time today for this so its empty.
+
+____________________________________________
+
