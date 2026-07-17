@@ -423,3 +423,27 @@ DAY 28
 Added file: AVLTree.cpp
 
 created avl tree and did rotations.
+
+________________________________________
+
+DAY 29
+
+GRAPH
+
+-> Collection of vertices(nodes) and edges conmecting these vertices.
+
+like this:- a ---- b   this "----" is edge 
+
+Directed Edge :  ----> (one way connection)
+
+Undirected Edge: ----  (two way connection)
+
+
+
+Directed Graph:  All directed edges
+
+Undirected Graph: All undirected edges
+
+Graphs are widely used for different reasons.
+
+___________________________________________ 
