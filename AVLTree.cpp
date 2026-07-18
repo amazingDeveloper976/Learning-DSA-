@@ -86,6 +86,7 @@ struct Node* insert(struct Node* n,int val){
         else if(val > n->data){
             n->right=insert(n->right,val);
         }
+        else{return n;}
     }
     n->height=max(getHeight(n->left),getHeight(n->right))+1;
     int BF=getBalanceFactor(n);

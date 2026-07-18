@@ -447,3 +447,51 @@ Undirected Graph: All undirected edges
 Graphs are widely used for different reasons.
 
 ___________________________________________ 
+
+DAY 30
+
+GRAPH REPRESENTATION
+
+1)Adjacency List: It gives vertex(nodes) of graph a list of its neighbors.
+
+Lets say node 0 connects to node 1 and node 2 then we write
+
+[0]->[1,2]
+
+
+
+2) Adjacency matrix: Rows amd columns represent the vertices of graph
+
+Lets say node 0 connects to node 1 and 2 then the intersection of 0 and 1,and 0 and 2 holds 1 other hold 0 
+basically its cartesian product if the node at column connects to other then its 1 then 0
+
+
+
+3) Cost adjacency matrix: same as 2 but holds cost instead of 1, and if there isnt cartesian product 0(if cost is never 0). 
+But if cost can be 0 then instead of 0, it holds -1 or infinity
+
+
+
+4) Cost adjacency list: same as adjacency list but also holds the cost.
+
+lets say node 0 holds node 1 at cost 5 and node 2 at cost 10 then
+
+[0]->[(1,5),(2,10)]
+
+
+
+5) Edge list: Basically ordered pair
+
+Lets say node 0 connects to node 1 and node 2 and node 1 connects node 5 then we write
+
+[(0,1),(0,2),(1,5)]
+
+
+
+6) Cost edge list: Basically 5 but with cost
+
+Lets say node 0 connects to node 1 at cost 5 and node 2 at cost 10, node 1 connects node 5 at cost 11 then we write
+
+[(0,1,5),(0,2,10),(1,5,11)]
+
+________________________________________
