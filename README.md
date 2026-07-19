@@ -495,3 +495,19 @@ Lets say node 0 connects to node 1 at cost 5 and node 2 at cost 10, node 1 conne
 [(0,1,5),(0,2,10),(1,5,11)]
 
 ________________________________________
+
+DAY 31
+
+GRAPH TRAVERSAL
+
+:- Visiting,checking,updating nodes
+
+Graph Traversal Algis can be used like:-
+
+- Breadth First Search(BFS): Explore(visit all its vertices) one node but surfacely. 
+Queue Data structure is used.
+
+- Depth First Search(DFS): We explore as deeply as possible. 
+Stack Data structure is used.
+
+_____________________________________________
