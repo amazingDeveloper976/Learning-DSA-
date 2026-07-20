@@ -502,7 +502,7 @@ GRAPH TRAVERSAL
 
 :- Visiting,checking,updating nodes
 
-Graph Traversal Algis can be used like:-
+Graph Traversal Algos can be used like:-
 
 - Breadth First Search(BFS): Explore(visit all its vertices) one node but surfacely. 
 Queue Data structure is used.
@@ -511,3 +511,17 @@ Queue Data structure is used.
 Stack Data structure is used.
 
 _____________________________________________
+
+DAY 32
+
+Added file:breadthFirstSearch.cpp
+
+Did breadth first search(BFS) in c++.
+
+Simply, i named variable stored starting node and visited array at ith index is set to 1. u stored the current node. i is enqueued for exploration. 
+as soon as it is dequeued for explorarion, its value is printed and then a loop is run for checking its links and if link is found 
+and the found link node's index in array is 0(this check is to prevent duplicate printing),then j is also set as visited and enqueued. 
+since queue isbeing used, the values at first are dequed and ooerarions are performed at them first. 
+This is BFS.
+
+_______________________________________________
